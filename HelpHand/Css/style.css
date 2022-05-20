@@ -1,0 +1,39 @@
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body{
+    scrollbar-width: none;
+    overflow-x:hidden;
+}
+/* nav bar */
+.navbar-brand{
+font-family: 'Mulish', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+font-weight: bold;
+
+}
+
+/* change navigation color */
+
+.navbar #navbarNav .custom-nav .nav-item a{
+    color: #ffff;
+
+}
+/* change navigation hover color */
+.navbar #navbarNav .custom-nav .nav-item a:hover{
+    color: #F0AAB1;
+
+}
+/* make image responsive */
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    border-radius: 0px;
+    margin-top:74px;
+
+}
+/* Services Section */
+/* Media Query */
