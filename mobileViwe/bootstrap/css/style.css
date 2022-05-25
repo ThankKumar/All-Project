@@ -1,0 +1,40 @@
+/* .nav_div{
+      position: relative;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      order:5px solid green;
+}
+.ml-auto, .mx-auto {
+      margin-left: auto!important;
+  } */
+
+  html{
+      scroll-behavior: smooth;
+  }
+  .fullscreen-landing{
+      background: white url("./images/123.webp") no-repeat scroll center;
+      height: 100vh;
+      background-size: cover;
+  }
+  .overlay{
+      background-color: rgba(0,0,0,0.5);
+      height: 100vh;
+  }
+  .search-box{
+      height: 50px;
+      width: 500px;
+  }
+  .subscribe-section{
+    background: white url("./images/123.webp") no-repeat scroll center;
+      background-size: cover;
+  }
+  .subscribe-overlay{
+      background-color: rgba(0,0,0,0.5);
+      height: 100%;
+  }
+  @media (max-width: 576px) {
+      .search-box{
+          width: 300px;
+      }
+  }
